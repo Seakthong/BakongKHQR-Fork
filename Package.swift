@@ -2,20 +2,25 @@
 import PackageDescription
 
 let package = Package(
-    name: "BakongKHQR-Fork",
+    name: "BakongKHQR",
     platforms: [
         .iOS(.v13)
     ],
     products: [
         .library(
-            name: "BakongKHQR-Fork",
-            targets: ["BakongKHQR-Fork"]
+            name: "BakongKHQR",
+            targets: ["BakongKHQR"]
         ),
     ],
     targets: [
         .target(
-            name: "BakongKHQR-Fork",
-            path: "BakongKHQR-Fork/BakongKHQR"
+            name: "BakongKHQR",
+            path: "BakongKHQR/Classes",
+            resources: [
+                .process("Public"),
+                .process("Private")
+            ],
+            publicHeadersPath: "Public"
         ),
     ]
 )
