@@ -9,13 +9,13 @@ let package = Package(
     products: [
         .library(
             name: "BakongKHQR-Fork",
-            targets: ["BakongKHQR"]
+            targets: ["BakongKHQR-Fork"]
         ),
     ],
     targets: [
         .target(
             name: "BakongKHQR-Fork",
-            path: "BakongKHQR/Classes"
+            path: "BakongKHQR-Fork/BakongKHQR"
         ),
     ]
 )
