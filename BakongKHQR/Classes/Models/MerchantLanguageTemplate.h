@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "../Protocols/TagLengthStringProtocol.h"
+#import "TagLengthStringProtocol.h"
 #import "MerchantLanguageAlternatePreference.h"
 #import "MerchantNameAlternateLanguage.h"
 #import "MerchantCityAlternateLanguage.h"
