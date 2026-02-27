@@ -24,7 +24,7 @@
 #import "MerchantName.h"
 #import "MerchantCity.h"
 #import "QrCrc16.h"
-#import "TagLengthStringProtocol.h"
+#import "../Protocols/TagLengthStringProtocol.h"
 #import "BKAdditionalData.h"
 #import "KHQRDeepLinkData.h"
 #import "MerchantLanguageTemplate.h"

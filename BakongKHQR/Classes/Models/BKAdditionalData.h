@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "TagLengthStringProtocol.h"
+#import "../Protocols/TagLengthStringProtocol.h"
 #import "BillNumber.h"
 #import "MobileNumber.h"
 #import "StoreLabel.h"

@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "TagLengthStringProtocol.h"
+#import "../Protocols/TagLengthStringProtocol.h"
 #import "Enums.h"
 
 @interface MerchantID : NSObject <TagLengthStringProtocol>

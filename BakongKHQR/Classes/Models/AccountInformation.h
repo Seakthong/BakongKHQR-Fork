@@ -5,7 +5,7 @@
 //  Created by Seth Sambo on 8/30/21.
 //
 #import <Foundation/Foundation.h>
-#import "TagLengthStringProtocol.h"
+#import "../Protocols/TagLengthStringProtocol.h"
 #import "Enums.h"
 
 @interface AccountInformation : NSObject <TagLengthStringProtocol>
