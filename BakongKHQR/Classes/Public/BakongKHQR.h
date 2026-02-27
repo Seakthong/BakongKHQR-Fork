@@ -30,6 +30,10 @@
 #import "MerchantLanguageTemplate.h"
 #import "UnionPay.h"
 #import "CRC.h"
+#import "TagLengthStringProtocol.h"
+#import "KHQRProtocol.h"
+#import "ResponseProtocol.h"
+#import "AccountTypeProtocol.h"
 
 @interface BakongKHQR : NSObject <KHQRProtocol>
 
