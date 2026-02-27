@@ -9,7 +9,7 @@
 #import "NSData+CRC-16CCITT.h"
 #import "QrCrc16.h"
 #import "KHQRData.h"
-
+#import <UIKit/UIKit.h>
 
 @interface BakongKHQR()
 
