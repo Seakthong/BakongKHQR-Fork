@@ -34,6 +34,7 @@
 #import "KHQRProtocol.h"
 #import "ResponseProtocol.h"
 #import "AccountTypeProtocol.h"
+#import "KHQRData.h"
 
 @interface BakongKHQR : NSObject <KHQRProtocol>
 
